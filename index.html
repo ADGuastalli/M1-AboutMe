@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Pagina Web M1</title>
+    <link rel="stylesheet" href="./styles/reset2.css" />
+    <link rel="stylesheet" href="./styles/styles2.css" />
+    <link rel="stylesheet" href="./styles/fonts2.css" />
+  </head>
+  <body>
+    <header id="titulo">
+      <h4>Mi Pagina Web</h4>
+      <h1>Guastalli Alexis</h1>
+    </header>
+    <section>
+      <article class="conteiner">
+        <div>
+          <div>
+            <h5 id="quien">¿Quien soy?</h5>
+          </div>
+          <div id="fototexto">
+            <div id="fotomiia">
+              <img id="foto" src="./assets/Sin título.png" />
+            </div>
+            <div>
+              <p class="descripcion">
+                Mi nombre es Alexis, tengo 33 años y naci en la ciudad Bahia
+                Blanca, Argentina. Estudie en una escuela tecnica con
+                orientacion a Informatica, y es por eso que me llamo la atencion
+                inscribirme a Henry. Ademas estoy recibido de Profesor en
+                Educación Física, fui jugador profecional de Hockey y hace unos
+                años con un socio creamos una distribuidora de alimentos de
+                consumo masivo. Estoy en pareja hace 8 años con Milena.
+              </p>
+              <p />
+              <p class="descripcion">
+                Mi deseo de esta carrara es poder terminarla en tiempo y forma,
+                y no solo seguirme especializando en la parte de Front, sino
+                ademas poder conseguir trabajo para poder vivir de esta
+                profesion tan linda y entretenida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section>
+      <article class="conteiner">
+        <h6 class="titumediano">Mis Tecnologias Preferidas</h6>
+        <div class="cards-grid">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div
+                class="flip-card-front"
+                style="background-image: url(./assets/html\ canva.png)"
+              ></div>
+              <div class="flip-card-back">
+                <p>HTML</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div
+                class="flip-card-front"
+                style="
+                  background-image: url(./assets/css_canva-removebg-preview.png);
+                "
+              ></div>
+              <div class="flip-card-back">
+                <p>CSS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div
+                class="flip-card-front"
+                style="
+                  background-image: url(./assets/java_canva-removebg-preview.png);
+                "
+              ></div>
+              <div class="flip-card-back">
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section>
+      <article class="conteiner">
+        <h6 class="titumediano">Mis Actividades Favoritas</h6>
+        <fieldset>
+          <form id="formu">
+            <div id="titleform">
+              <input
+                type="text"
+                id="inputTitle"
+                name="titulo"
+                placeholder="Nombre de la Actividad"
+              />
+            </div>
+            <div id="descrip">
+              <textarea
+                id="inputDescription"
+                name="descrip"
+                placeholder="Ingrese la Descripción aqui..."
+              ></textarea>
+            </div>
+            <div id="imgform">
+              <input
+                type="url"
+                id="inputImagen"
+                name="url_imagen"
+                placeholder="Ingrese el Link de la Imagen aqui..."
+              />
+            </div>
+            <div class="butbox">
+              <button id="agregar" type="button" name="button">
+                <p id="texbutton">Agregar Tarjeta</p>
+              </button>
+            </div>
+          </form>
+        </fieldset>
+        <div id="activitiesContainer">
+          <p id="nohayactividad">No se encuentran actividades agregadas</p>
+        </div>
+      </article>
+    </section>
+    <footer><p>&copy;2024 - Mi Pagina Web M1</p></footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
